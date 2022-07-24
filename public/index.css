@@ -1,0 +1,328 @@
+*{
+
+}
+
+#txt{
+
+    font-size: medium;
+    font-style: italic bold;
+    margin-right: 5% auto;
+    
+}
+
+.fechahora{
+    direction: rtl;
+}
+
+body{
+    background-color:#E7FAD0;
+}
+nav{
+    background-color:#A82D69;
+    direction:ltr;
+    border-top: 20px solid #;
+    margin: 65px auto;
+    margin-right: 3px;
+}
+
+
+nav a:hover{
+    background-color: #d397b4;
+    color: #E7FAD0;
+    border-radius: 18px;
+}
+
+.bodynotindex{
+    background: linear-gradient(1deg,#E7FAD0, transparent);
+    background-image: no-repeat;
+}
+
+.logo{
+    margin:0 auto;
+}
+.img-logo{
+    direction: rtl;
+    float: right;
+    clear: right;
+    border-radius: 60px;
+    padding: 0 auto;
+    margin: 1% 3%;
+    margin-right: 15px;
+    width: 100px;
+    height: 100px;
+}
+
+.h1{
+    margin-top:55px;
+    margin-left: 10px;
+}
+
+.dropdown-item:hover{
+    background-color:#73F574;
+    color:#A82D69
+}
+
+
+/*ASTROLOGIA A DIARIO */
+.bodynotindex{
+    background-color:linear-gradient(to bottom left,#E7FAD0, #91ff92, transparent);
+    background-repeat: no-repeat;
+}
+
+.imgastroadiario{
+    direction: rtl;
+    width: 150px;
+    margin-top: 15%;
+}
+/* astrologia a diario*/
+
+.traduccion{
+    
+    
+}
+.h1astroadiario{
+    text-align: center;
+    font-size: 42px;
+    text-decoration: underline;
+    margin-top: 10px;
+}
+.headerastroadiario{
+    margin: 10px;
+}
+
+.h2astroadiario{
+    text-align: right;
+    font-size: 15px;
+    margin-top: 55px;
+    margin-bottom:50px;
+    margin-left: 25px;
+    text-decoration: underline;
+    margin: 2% 80%;
+}
+
+.articuloastroadiario{
+    justify-content: center;
+    margin-bottom: 90px;
+}
+
+.imgastroadiario{
+    display: block;
+    margin: auto;
+    justify-content: center;
+}
+
+.pastroadiario{
+    text-align: justify;
+    margin-left:90px;
+    margin-right:90px;
+    margin-top: 55px;
+}
+
+.imgastro1{
+    align-content: center;
+    margin-top: 11%;
+}
+
+/* parte de quienes somos */
+
+.headerquienessomos{
+    margin: 7% 5%;
+}
+.mainquienessomos{
+    display: flex;
+    justify-content: flex-end;
+}
+.h1quienessomos{
+    font-size:37px;
+    margin-left:70px;
+
+}
+
+.articlequienessomos{
+    margin: 65px;
+    margin-left: auto;
+    margin-top: 60px;
+}
+
+.asidequienessomos{
+    padding: 4px;
+    margin-top: 50px
+}
+
+.tituloquienessomos{
+    margin-left: 60px;
+    margin-top: auto;
+}
+
+.pquienessomos{
+    text-align: justify;
+    margin-right: 5px;
+    padding: 20px;
+}
+
+.ulfooterquienessomos li{
+    text-decoration: none;
+    list-style-type: none;
+    text-align: center;
+    line-height: 50px;
+    font-size: 17px;
+}
+
+
+
+/* parte de productos y servicios */
+
+.foto1productos{
+    width: 500px;
+    align-content: center;
+    border:double;
+    border-color: #8F2173;
+    border-radius:10px;
+    border-style: solid;
+    margin-bottom:4%;
+    
+}
+
+.foto2productos{
+    width: 435px;
+    justify-content: center;
+    border:double;
+    border-color: #8F2173;
+    border-radius:10px;
+    border-style: solid;
+    margin-bottom:4%;
+}
+
+figure{
+    justify-content: center;
+}
+.mainproductos{
+    padding: 20px;
+    display: flex;
+    justify-content:space-around;
+    
+}
+
+.bodyproductos{
+    margin-left: auto;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom;
+}
+
+.parrafoproductos{
+    text-align: justify;
+    font-size: 18px;
+    padding: 20px;
+
+}
+
+
+.headerproductos{
+    margin-bottom: 25px;
+}
+
+.h1productos{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 45px;
+    margin-bottom: 105px;
+    margin-top: 55px;
+}
+
+.tituloproducto{
+    font-size: 25px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.hrfooterproductos{
+    margin-bottom: 35px;
+    margin-top: 105px;
+}
+
+.paramasinfo{
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+.divproductos{
+    padding: auto;
+    margin: auto;
+}
+
+.h3productos{
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+
+/* CONTACTO*/
+
+.mb-3{
+    width:30%;
+
+}
+
+button{
+    float:inline-end;
+    margin-left: 15%;
+    margin-top: 3%;
+}
+
+.dividir{
+    margin: 6%;
+}
+
+.dividir1{
+    margin-top: 6%;
+    margin-left:6%;
+    margin-right:6%;
+
+}
+
+.h2form{
+    margin:2% auto;
+}
+
+.form-control{
+    background-color: #e6e9ec;
+    border: 2px solid #C4397C;
+}
+
+.maps{
+    border: 3px solid #C4397C;
+}
+
+.paramasinfo:hover{
+    background-color: #f1b5d2;
+    border-radius: 30%;
+    padding: 20px 20px;
+}
+/* Color Theme Swatches in Hex */
+.My-Color-Theme-1-hex { color: #3EA83F; }
+.My-Color-Theme-2-hex { color: #91FF92; }
+.My-Color-Theme-3-hex { color: #73F574; }
+.My-Color-Theme-4-hex { color: #A82D69; }
+.My-Color-Theme-5-hex { color: #C4397C; }
+.My-Color-Theme-5-hex { color: #E7FAD0; }
+
+/* Color Theme Swatches in RGBA */
+.My-Color-Theme-1-rgba { color: rgba(62, 168, 63, 1); }
+.My-Color-Theme-2-rgba { color: rgba(145, 255, 146, 1); }
+.My-Color-Theme-3-rgba { color: rgba(115, 245, 116, 1); }
+.My-Color-Theme-4-rgba { color: rgba(168, 45, 105, 1); }
+.My-Color-Theme-5-rgba { color: rgba(196, 57, 124, 1); }
+
+
+/* Color Theme Swatches in HSLA */
+.My-Color-Theme-1-hsla { color: hsla(120, 46, 45, 1); }
+.My-Color-Theme-2-hsla { color: hsla(120, 100, 78, 1); }
+.My-Color-Theme-3-hsla { color: hsla(120, 86, 70, 1); }
+.My-Color-Theme-4-hsla { color: hsla(330, 57, 41, 1); }
+.My-Color-Theme-5-hsla { color: hsla(331, 54, 49, 1); }
