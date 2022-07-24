@@ -50,7 +50,6 @@ app.get('/contacto', (req, res) =>{
 //Verbo http para recibir datos
 app.post('/contacto', (req,res) =>{
 
-    //Desestructuracion
 
     const{nombre, apellido, fechanac, email, motivo} = req.body;
 
@@ -77,9 +76,6 @@ app.post('/contacto', (req,res) =>{
 
     res.send("¡Gracias! nos estaremos comunicando a la brevedad")
     
-    //otra forma es creando funciones
-
-            //conectar()
             
             let data = {
                 nombre:nombre,

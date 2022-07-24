@@ -2,10 +2,10 @@
   "name": "astrologia",
   "version": "1.0.0",
   "description": "none",
-  "main": "database.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon database.js"
+    "start": "nodemon index.js"
   },
   "author": "Sofia Rodriguez",
   "license": "ISC",
